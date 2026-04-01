@@ -1,7 +1,7 @@
 {
   "name": "@theyahia/halyk-epay-mcp",
-  "version": "1.0.0",
-  "description": "MCP server for Halyk Bank ePay payment gateway (Kazakhstan)",
+  "version": "1.0.1",
+  "description": "MCP server for Halyk Bank ePay — payment gateway, 3DS (Kazakhstan)",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -44,7 +44,10 @@
     "halyk-bank",
     "kazakhstan-api",
     "payments",
-    "typescript"
+    "typescript",
+    "halyk-epay",
+    "api",
+    "banking"
   ],
   "license": "MIT",
   "repository": {
